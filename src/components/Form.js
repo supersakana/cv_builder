@@ -31,12 +31,39 @@ const Form = () => {
       </div>
 
       <div>
-        <label for='from'>From</label>
+        <label for='from-uni'>From</label>
         <input type='date' />
       </div>
 
       <div>
-        <label for='to'>To</label>
+        <label for='to-uni'>To</label>
+        <input type='date' />
+      </div>
+
+      <h4>Experience</h4>
+
+      <div>
+        <label for='company'>Company</label>
+        <input type='text' placeholder='Company Name' />
+      </div>
+
+       <div>
+        <label for='position'>Position</label>
+        <input type='text' placeholder='Position Title' />
+      </div>
+
+      <div>
+        <label for='company'>Description</label>
+        <textarea placeholder='List a description of your job here' />
+      </div>
+
+      <div>
+        <label for='from-job-1'>From</label>
+        <input type='date' />
+      </div>
+
+      <div>
+        <label for='to-job-1'>To</label>
         <input type='date' />
       </div>
 
