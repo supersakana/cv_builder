@@ -1,24 +1,24 @@
-const Doc = () => {
+const Doc = ({ content }) => {
   return (
-    <div>
-      <p className="font-bold">Name</p>
-      <p className="font-bold">Email</p>
-      <p className="font-bold">Phone</p>
+    <div className="font-bold">
+      <p>{content.name}</p>
+      <p>Email</p>
+      <p>Phone</p>
 
       <br></br>
 
-      <p className="font-bold">University</p>
-      <p className="font-bold">Degree</p>
-      <p className="font-bold">From</p>
-      <p className="font-bold">To</p>
+      <p>University</p>
+      <p>Degree</p>
+      <p>From</p>
+      <p>To</p>
 
       <br></br>
 
-      <p className="font-bold">Company</p>
-      <p className="font-bold">Position</p>
-      <p className="font-bold">Description</p>
-      <p className="font-bold">From</p>
-      <p className="font-bold">To</p>
+      <p>Company</p>
+      <p>Position</p>
+      <p>Description</p>
+      <p>From</p>
+      <p>To</p>
     </div>
   )
 }

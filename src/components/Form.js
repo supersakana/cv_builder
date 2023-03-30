@@ -1,4 +1,4 @@
-const Form = () => {
+const Form = ({ updateDoc }) => {
 
   const onSubmit = (e) =>{
     e.preventDefault()
@@ -11,7 +11,7 @@ const Form = () => {
 
       <div className="form-control">
         <label htmlFor='name'>Name</label>
-        <input type='text' placeholder="John Doe" />
+        <input id='name' type='text' placeholder="John Doe" onChange={updateDoc} />
       </div>
 
       <div className="form-control">
