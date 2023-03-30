@@ -9,13 +9,13 @@ function App() {
     phone: '',
     university: '',
     degree: '',
-    fromUni: '',
-    toUni: '',
+    from_uni: '',
+    to_uni: '',
     company: '',
     position: '',
     description: '',
-    fromComp: '',
-    toComp: ''
+    from_comp: '',
+    to_comp: ''
   })
 
   const updateDoc = (e) => {
